@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# macOS specific files
+.DS_Store
+
+# virtual environments
+venv/
+.env/
+.venv/
+
+# Poetry specific files
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+
+# unit test / coverage reports
+htmlcov/
+.tox/
+nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code specific files
+.vscode/
+.history/
+
+# Editor specific files
+.idea/
+*.swp
+*~
+.project
+.settings/
+.metadata/
+*.bak
+*.tmp
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# dotenv
+.env
+
+# Sphinx documentation
+docs/_build/
+target/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Pyre type checker
+.pyre/
+
+# Profiling data
+.prof
+
+# Local Poetry configuration
+# if you use `poetry config cache-dir` to specify a cache directory
+# .poetry_cache/
